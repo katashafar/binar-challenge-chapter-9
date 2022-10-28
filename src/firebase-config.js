@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "@firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA-DEQ5OCy1T7F3elfyOL7SHMQgTsOOekU",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "chapter9-78aef.firebaseapp.com",
   databaseURL:
     "https://chapter9-78aef-default-rtdb.asia-southeast1.firebasedatabase.app",
